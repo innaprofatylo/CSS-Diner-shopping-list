@@ -1,5 +1,8 @@
 *{
 	transition: all .1s ease-in;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
 body{
 	margin: 0px;
@@ -15,18 +18,19 @@ html{
 	height: 100%;
 }
 .ba-header{
-	padding: 5px;
-	padding-bottom: 0;
-	height: 150px;
+	padding: 20px 0;
 	background-color: #4a4f56;
 	color: #EB7E7F;
 	text-align: center;
 	font-weight: bold;
 }
 .ba-container{
-	padding: 30px;
+	padding: 25px;
 	max-width: 600px;
 	margin: 0 auto;
+}
+main{
+	display: block;
 }
 .ba-shopping-list{
 	padding: 0;
@@ -83,8 +87,8 @@ content: '('
 	background-color: red;
 }
 .ba-footer{
-	margin-bottom: 40px;
-	height: 50px;
+	margin-top: 40px;
+	padding: 20px 0;
 	background-color: #4a4f56;
 	color: #EB7E7F;
 	text-align: center;
